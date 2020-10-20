@@ -1,0 +1,307 @@
+/* DEFAULT STYLES FOR THE WHOLE PAGE */
+			.firstLine,
+			.firstLine2,
+			.secondLine,
+			.thirdLine,
+			.fourthLine	{
+				display:none;
+				text-indent:-27px;
+				}				
+
+/* ONLY WHEN THE SCREEN IS WIDER THAN 1000px */
+			@media only screen 
+				and (min-width: 1001px)
+				  { 
+				
+					body {
+						height: 1001px;
+						background: linear-gradient(to left, #e66465, #9198e5);
+						}
+					.firstLine { display: block; 
+								text-align: center; 
+								font-family: 'cursive', sans-serif;
+								font-size: 2.5em;
+			  					color: white; }}
+			  	@media only screen 
+				and (max-width: 1000px) 
+				  { 
+
+					.SecondFirst { display: none; 
+								text-align: center; 
+								font-family: 'cursive', sans-serif;
+								font-size: 2em;
+			  					color: white; }}
+			  		@media only screen 
+				and (min-width: 1001px) 
+				  { 
+
+					.SecondFirst { display: block;
+								margin-top: 30px; 
+								text-align: center; 
+								font-family: 'cursive', sans-serif;
+								font-size: 1em;
+			  					color: white; }
+			  		.firstLine2{display: block;
+			  					text-align: center;
+			  					margin-top: 30px;
+            					font-family: 'Londrina+Outline', sans-serif;
+  								color: white;
+  								font-size: 1em;}			
+        						}				
+								
+/* ONLY WHEN THE SCREEN IS BETWEEN 701px and 1000px WIDE*/
+			@media only screen 
+				and (min-width: 701px)		
+				and (max-width: 1000px)  { 
+				
+					body {
+						height: 1001px;
+						background: linear-gradient(to left, #9198e5,#74d8ef);
+						}
+					
+					.secondLine { display: block;
+						         margin-top: 30px;
+								 text-align: center; 
+								 font-family: 'Lato', sans-serif;
+								 font-size: 1.5em;
+			  					 color: white; }}
+	
+/* ONLY WHEN THE SCREEN IS BETWEEN 401px and 700px WIDE*/
+		
+			@media only screen 
+				and (min-width: 401px)			
+				and (max-width: 700px)  { 
+				
+					body {
+						height: 1001px;
+						background: linear-gradient(to left, #74d8ef,#5cbd6c);
+						}
+					.thirdLine {display: block;
+								 text-align: center;
+								 margin-top: 30px;
+								 font-family: 'Lato', sans-serif;
+								 font-size: 1.5em;
+			  					 color: white; }		
+								}		
+								
+		
+
+/* ONLY WHEN THE SCREEN IS LESS THAN 401px WIDE */
+			@media only screen 
+				and (max-width: 400px)  { 
+				
+					body {
+						height: 1001px;
+						background: linear-gradient(to left,#5cbd6c, #fd77a2);
+					}
+					.fourthLine {display: block;
+						text-align: center;
+						font-family:'cursive', sans-serif; 
+  						color: white;
+  						font-size: 0.8em;}
+
+  					.link {display: block;
+  						margin-top: 30px;
+						text-align: center;
+						font-family:'cursive', sans-serif; 
+  						color: white;
+  						font-size: 0.8em;}
+
+  					.link2 {display: block;
+  						margin-top: 30px;
+						text-align: center;
+						font-family:'cursive', sans-serif; 
+  						color: white;
+  						font-size: 0.8em;}
+
+  					.link3 {display: block;
+  						margin-top: 30px;
+						text-align: center;
+						font-family:'cursive', sans-serif; 
+  						color: white;
+  						font-size: 0.8em;}				
+			    	}
+
+
+/***************************************************************/
+/*BarkBurning Video*/
+
+	@media screen and (max-width: 700px)  {
+  #video1
+  { display: block; }  /* show it on smaller screen */
+}
+@media screen and (min-width: 0px) and (max-width: 1001px) {
+  #video1{ display: none; }   /* hide it on larger screens */
+}
+
+.video1{
+	margin-top: 1%;
+	margin-left: 15%;
+	}
+
+
+/***************************************************************/
+/*IMAGES*/
+
+@media screen and (min-width: 700px)  {
+  .image1{ display: none; } 
+  .image2{ display: none; }
+  .image3{ display: none; }
+}
+@media screen and (min-width: 100px)  {
+  .image1{ display: none; }
+  .image2{ display: none; }
+  .image3{ display: none; }
+}
+@media screen  and (max-width: 1000px) and (min-width: 701px) {
+  .image1{ display: block; }  
+  .image2{ display: block; }
+  .image3{ display: block; } 
+}
+
+	.image1{
+  margin-top: 12%;
+  margin-left: 1%;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 5px;
+  width: 240px;
+	}
+.image2{
+  margin-top: -16%;
+  margin-left: 35%;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 5px;
+  width: 240px;
+	}
+.image3{
+  margin-top: -8%;
+  margin-left: 69%;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 5px;
+  width: 240px;
+	}
+
+/***************************************************************/
+/*StaticMap*/
+
+@media screen and (min-width: 700px)  {
+  .map{ display: none; } 
+}
+@media screen and (min-width: 100px)  {
+  .map{ display: none; }
+}
+@media screen  and (max-width: 700px) and (min-width: 401px) {
+  .map{ display: block;
+    margin-top: 8%;
+  margin-left: 9%;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 5px;
+  width: 500px;
+ }  
+
+}
+
+/************************************************************/
+/* Nav Bar */
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  font-family: 'oswald', sans-serif;
+  color: #f1f1f1;
+  font-size: 15px;
+}
+
+li a {
+  display: block;
+  border: 1.5px solid #f1f1f1;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+/************************************************************/
+/*Page 1 CSS */
+
+.gradient{
+  position: relative;
+  height: 150vh;
+  width: 3200vw;
+  top: -10px;
+  left: -10px;
+  background: linear-gradient(to right,
+                                black,
+                                #483D8B,
+                                black,
+                                #191970,
+                                #30285c,
+                                black,
+                                black,
+                                black,
+                                black,
+                                white,
+                                white,
+                                white
+                                      );
+                              }
+/************************************************************/
+/*Page 2 CSS */
+
+.title1 { 
+			text-align: center; 
+		    font-family: 'cursive', sans-serif;
+		    font-size: 2.5em;
+			color: white; }
+
+.image4{
+	position: absolute;
+  margin-top: 23%;
+  margin-left: 21%;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 5px;
+  width: 875px;
+	}
+.image5{
+	position: absolute;
+  margin-top: 6%;
+  margin-left: 25%;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 5px;
+  width: 316px;
+	}
+.image6{
+	position: absolute;
+  margin-top: 6%;
+  margin-left: 72%;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 5px;
+  width: 325px;
+	}
+.image7{
+	position: absolute;
+  margin-top: 6%;
+  margin-left: 2%;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+	}
+.image8{
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 49%;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+	}
