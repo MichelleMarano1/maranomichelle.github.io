@@ -17,8 +17,8 @@
 
 <div class="gradient"></div>
 
-<ul> <li><a href="Index.html"> More of my work </a></li>
-</ul>
+<p> <a href="page2.html"> More of my work </a> </p>
+<p> <a href="page1.html"> My Existential Crisis </a> </p>
 
   </body>
 
